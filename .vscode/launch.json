@@ -16,7 +16,7 @@
         //     "name": "MCP Inspector",
         //     "request": "launch",
         //     "type": "debugpy",
-        //     "program": "${workspaceFolder}/node_modules/@modelcontextprotocol/inspector",
+        //     "program": "npx @modelcontextprotocol/inspector",
         //     "console": "integratedTerminal",
         //     "cwd": "${workspaceFolder}"
         // }
