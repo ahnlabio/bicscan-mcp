@@ -13,11 +13,14 @@ A powerful and efficient Blockchain address risk scoring API MCP Server, leverag
 
 You con either use Python with `uv` or `docker` depending on your preference.
 
+Depending on your environment, you can choose to use either `uv`, `docker`, or `uvx`.
+
 ### 1. Running with `uv`
 
 #### 1-1. Requirements
 1. Python 3.10 or higher
-2. UV 0.6.x
+2. uv 0.6.x
+3. git
 
 #### 1.2. Clone the repository
 ```sh
@@ -92,6 +95,40 @@ Make sure to replace:
   }
 }
 ```
+
+### 3. Running with `uvx`
+
+#### 3.1. Requirements
+1. Python 3.10 or higher
+2. uv 0.6.x
+3. git
+
+#### 3.2. Config `claude_desktop_config.json`
+
+Append following to `claude_desktop_config.json`.
+
+Make sure to replace:
+ - `YOUR_BICSCAN_API_KEY_HERE`: to free API key can be obtained from https://bicscan.io (details below)
+
+```json
+{
+  "mcpServers": {
+    ... some other mcp servers ...,
+    "bicscan": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/ahnlabio/bicscan-mcp",
+        "bicscan-mcp"
+      ],
+      "env": {
+        "BICSCAN_API_KEY": "YOUR_BICSCAN_API_KEY_HERE"
+      }
+    }
+  }
+}
+```
+
 
 
 ## How to obtain Free BICScan API Key?
