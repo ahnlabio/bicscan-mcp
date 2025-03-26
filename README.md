@@ -1,6 +1,10 @@
 # BICScan MCP Server
 A powerful and efficient Blockchain address risk scoring API MCP Server, leveraging the BICScan API to provide comprehensive risk assessments and asset information for blockchain addresses, domains, and decentralized applications (dApps).
 
+<a href="https://glama.ai/mcp/servers/@ahnlabio/bicscan-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@ahnlabio/bicscan-mcp/badge" alt="BICScan Server MCP server" />
+</a>
+
 ## Key Features
 - **Risk Scoring**: Obtain risk scores for various blockchain entities, including crypto addresses, domain names, and decentralized application URLs, with scores ranging from 0 to 100, where 100 indicates high risk.
 - **Asset Information**: Retrieve detailed asset holdings for specified crypto addresses, including cryptocurrencies and tokens, with support for multiple blockchain networks.
@@ -55,12 +59,10 @@ Make sure to replace:
 }
 ```
 
-
 ### 2. Running with `Docker`
 
 #### 2.1. Requirements
 1. Docker environment
-
 
 #### 2.2. Clone the repository
 ```sh
@@ -70,7 +72,6 @@ git clone https://github.com/ahnlabio/bicscan-mcp
 #### 2.3. Build Docker image.
 
 Just run `make` in the repository directory to build docker image.
-
 
 #### 2.4. Config
 Append following to `claude_desktop_config.json`
@@ -128,8 +129,6 @@ Make sure to replace:
   }
 }
 ```
-
-
 
 ## How to obtain Free BICScan API Key?
 
