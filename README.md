@@ -1,5 +1,10 @@
 # BICScan MCP Server
+
 A powerful and efficient Blockchain address risk scoring API MCP Server, leveraging the BICScan API to provide comprehensive risk assessments and asset information for blockchain addresses, domains, and decentralized applications (dApps).
+
+
+https://github.com/user-attachments/assets/f9425429-1cb1-4508-b962-81351075258b
+
 
 <a href="https://glama.ai/mcp/servers/@ahnlabio/bicscan-mcp">
   <img width="380" height="200" src="https://glama.ai/mcp/servers/@ahnlabio/bicscan-mcp/badge" alt="BICScan Server MCP server" />
