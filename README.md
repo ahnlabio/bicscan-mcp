@@ -2,13 +2,10 @@
 
 A powerful and efficient Blockchain address risk scoring API MCP Server, leveraging the BICScan API to provide comprehensive risk assessments and asset information for blockchain addresses, domains, and decentralized applications (dApps).
 
+🎉 We're listed on https://github.com/modelcontextprotocol/servers for official integration 🎉
+
 
 https://github.com/user-attachments/assets/f9425429-1cb1-4508-b962-81351075258b
-
-
-<a href="https://glama.ai/mcp/servers/@ahnlabio/bicscan-mcp">
-  <img width="380" height="200" src="https://glama.ai/mcp/servers/@ahnlabio/bicscan-mcp/badge" alt="BICScan Server MCP server" />
-</a>
 
 ## Key Features
 - **Risk Scoring**: Obtain risk scores for various blockchain entities, including crypto addresses, domain names, and decentralized application URLs, with scores ranging from 0 to 100, where 100 indicates high risk.
