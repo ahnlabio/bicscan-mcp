@@ -1,5 +1,7 @@
 # BICScan MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@ahnlabio/bicscan-mcp)](https://smithery.ai/server/@ahnlabio/bicscan-mcp)
+
 A powerful and efficient Blockchain address risk scoring API MCP Server, leveraging the BICScan API to provide comprehensive risk assessments and asset information for blockchain addresses, domains, and decentralized applications (dApps).
 
 🎉 We're listed on https://github.com/modelcontextprotocol/servers for official integration 🎉
@@ -20,6 +22,14 @@ https://github.com/user-attachments/assets/f9425429-1cb1-4508-b962-81351075258b
 You con either use Python with `uv` or `docker` depending on your preference.
 
 Depending on your environment, you can choose to use either `uv`, `docker`, or `uvx`.
+
+### Installing via Smithery
+
+To install BICScan for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@ahnlabio/bicscan-mcp):
+
+```bash
+npx -y @smithery/cli install @ahnlabio/bicscan-mcp --client claude
+```
 
 ### 1. Running with `uv`
 

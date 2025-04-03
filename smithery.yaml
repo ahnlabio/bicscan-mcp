@@ -1,0 +1,19 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - bicscanApiKey
+    properties:
+      bicscanApiKey:
+        type: string
+        description: API key for BICScan API access.
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({ command: 'bicscan-mcp', args: [], env: { BICSCAN_API_KEY: config.bicscanApiKey } })
+  exampleConfig:
+    bicscanApiKey: YOUR_BICSCAN_API_KEY_HERE
