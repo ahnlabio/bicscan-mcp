@@ -1,4 +1,5 @@
 # BICScan MCP Server
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/ahnlabio/bicscan-mcp)](https://archestra.ai/mcp-catalog/ahnlabio__bicscan-mcp)
 
 A powerful and efficient Blockchain address risk scoring API MCP Server, leveraging the BICScan API to provide comprehensive risk assessments and asset information for blockchain addresses, domains, and decentralized applications (dApps).
 
