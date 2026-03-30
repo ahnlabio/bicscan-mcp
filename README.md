@@ -138,3 +138,8 @@ Make sure to replace:
 3. Enter name and description on your choice.
 4. Replace `YOUR_BICSCAN_API_KEY_HERE` part from above config to your newly obtained key.
 5. restart the Claude Desktop.
+
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/ahnlabio-bicscan-mcp).
+
